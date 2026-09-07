@@ -10,6 +10,7 @@
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.au/config.json [""token":"lrUFxN8oKSjV129MSHa/qID++wj5qG6gt+hVS+06fuU=""] [path="/config.json"]
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.br/config.json [""token":"XA2qdGzeMZpkVE3/oKJoEU3cX3oVmcStyeVgHn66SVk=""] [path="/config.json"]
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.mx/config.json [""token":"4jjduyH7RE+2pQxFJ+QigoJ1Brx0xdBbZoZz2oJ6Rl8=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.de/config.json [""token":"nt6uKqc+GVL1K/bCmN+bdJoGgfxxPjWOVxJ/3Q3k5OE=""] [path="/config.json"]
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.es/config.json [""token":"ETxjd31+Z9Tu5vYYuOGbTNAx4BBuY2gz6UKOuwTsfqo=""] [path="/config.json"]
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.fr/config.json [""token":"8aRRjXHrs8X0JejtPntF6lGEjCLJHko/GqsqBrF0GYE=""] [path="/config.json"]
 [config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.in/config.json [""token":"yFp9JUXZR70eLlY/vUL0IubrMsvsX5snDvUZ6kVJFL0=""] [path="/config.json"]
