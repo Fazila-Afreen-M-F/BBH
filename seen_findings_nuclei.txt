@@ -1,4 +1,19 @@
 [blockchain-rpc-txpool-exposed] [http] [high] https://chain-proxy.wallet.coinbase.com
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.co.uk/config.json [""token":"JfOxRLZGEm25T53qdLL95ovq2NLdIAAN6YqR+gD6yhw=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.de/config.json [""token":"RzNZXJnNs8zLoKRvYXqqP92YcHwdrUMvoGhtejK+KuQ=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.es/config.json [""token":"L1BiWqD+kYHUgPioqzcteeXWhyPLsTS4bJbbLReEOtg=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.fr/config.json [""token":"15oFQ0vp+cpidePDR5lZ7uzoTeyGvZNqUk2oLEr30eY=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.in/config.json [""token":"QzoEPEDzo5RNrGITqlyDmkDc79dc9d5qelmQeCUzSr0=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://eu-south-2.music.amazon.it/config.json [""token":"xfOeeHpVABJLvTWXWiS5TZVM6g18S1vfzG/9RE1BeIE=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.ca/config.json [""token":"eXmVC1JKSk1hH4ycMZ3MpUOlBJqKoo0lBBj9+yAthaI=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.co.uk/config.json [""token":"C0q4j6lEcIOiS+GytNl70yvGp6INyC6oCvuByyzNBRg=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.au/config.json [""token":"lrUFxN8oKSjV129MSHa/qID++wj5qG6gt+hVS+06fuU=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.br/config.json [""token":"XA2qdGzeMZpkVE3/oKJoEU3cX3oVmcStyeVgHn66SVk=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.com.mx/config.json [""token":"4jjduyH7RE+2pQxFJ+QigoJ1Brx0xdBbZoZz2oJ6Rl8=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.es/config.json [""token":"ETxjd31+Z9Tu5vYYuOGbTNAx4BBuY2gz6UKOuwTsfqo=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.fr/config.json [""token":"8aRRjXHrs8X0JejtPntF6lGEjCLJHko/GqsqBrF0GYE=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.in/config.json [""token":"yFp9JUXZR70eLlY/vUL0IubrMsvsX5snDvUZ6kVJFL0=""] [path="/config.json"]
+[config-json-exposure-fuzz:api_credentials] [http] [critical] https://music.amazon.it/config.json [""token":"Q3XIuWVP1J9HxJr/2MYiENg5ok6ygjzVA6KO1Fkn2NU=""] [path="/config.json"]
 [mobotix-default-credentials] [http] [high] https://platform.development.blis.com/control/userimage.html
 [openbmcs-ssrf] [http] [medium] https://bi-ap-southeast-1.alibabacloud.com/php/query.php
 [openbmcs-ssrf] [http] [medium] https://bi-ap-southeast-5.alibabacloud.com/php/query.php
