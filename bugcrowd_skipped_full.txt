@@ -1,0 +1,12 @@
+matlab-online	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+internetbrands-public	automation: review - [Mistral call failed on full-text check — queued for retry]	20
+mattermost-mbb-public	automation: review - [Mistral call failed on full-text check — queued for retry]	3
+shinetech-software-market	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+spacex	automation: review - [Mistral call failed on full-text check — queued for retry]	0
+monash-mbb	automation: review - [Mistral call failed on full-text check — queued for retry]	39
+t-mobile	automation: review - [Mistral call failed on full-text check — queued for retry]	67
+okapya	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+epicsumup	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+xopero-software-marketplace	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+akeles	safe harbor: review - [Mistral call failed — queued for retry] Ltd written consent will have any allocated bounty withdrawn and disqualified fr	1
+octopus-og	automation: review - [Mistral call failed on full-text check — queued for retry]	3
