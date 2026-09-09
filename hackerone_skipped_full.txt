@@ -1,9 +1,78 @@
+security	automation: review - [Mistral call failed on full-text check — queued for retry]	23
+wordpress	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	10
+x	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	18
+basecamp	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	5
+automattic	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	20
+scopely	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	3
+paypal	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	31
+matomo	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	2
+spotify	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	14
+hyatt	automation: review - [Mistral call failed on full-text check — queued for retry]	56
+phpbb	safe harbor: review - [Mistral call failed — queued for retry] warnings regarding its use were provided, this is considered outside the scope o	0
+brave	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	0
+weblate	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
 nodejs	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
-epicgames	automation: review - [Mistral call failed on full-text check — queued for retry]	69
+epicgames	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	69
 valve	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	16
+coalition	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	4
 affirm	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
 crowdstrike	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	19
 pingidentity	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	10
 expediagroup	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	30
-urbancompany	automation: review - [Mistral call failed on full-text check — queued for retry]	2
+urbancompany	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+expediagroup_bbp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	53
 fanduel	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	10
+central-security-project	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
+instacart	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	7
+worklytics	id verification: review - [Mistral call failed on implied check — queued for retry]	1
+box_private	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	8
+exodus	automation: review - [Mistral call failed on full-text check — queued for retry]	14
+thomsonreuters-public	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+hcl_software	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
+amazonvrp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	29
+evernote	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	5
+td-bank	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	20
+navient_solutions	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
+shutterfly_vdp	id verification: review - [Mistral call failed on implied check — queued for retry]	30
+mendix	id verification: review - [Mistral call failed on implied check — queued for retry]	23
+cs_money	id verification: review - [Mistral call failed on implied check — queued for retry]	5
+xvideos	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	5
+csg-public	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	10
+stripe	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	14
+paystack-vdp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	12
+payoneer	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	5
+who-covid-19-mobile-app	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+fanduel-vdp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
+capital-one-bounty	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
+trendyol	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	4
+khealth	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	10
+latamairlines	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	41
+servicenow-disclosure	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	3
+semtech	safe harbor: review - [Mistral call failed — queued for retry] through active testing of Semtech's current systems, applications, or services r	36
+caterpillar	id verification: review - [Mistral call failed on implied check — queued for retry]	0
+godaddy-vdp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
+inspectorio	automation: review - [Mistral call failed on full-text check — queued for retry]	9
+wellsfargo-bbp	id verification: review - [Mistral call failed on implied check — queued for retry]	7
+wickr	id verification: review - [Mistral call failed on implied check — queued for retry]	2
+allegion	id verification: review - [Mistral call failed on implied check — queued for retry]	37
+hilton	id verification: review - [Mistral call failed on implied check — queued for retry]	9
+mongodb	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
+fidelity	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	8
+ro	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	15
+prudential-financial	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
+daimler_truck	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	267
+modern_treasury	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+abercrombie_fitch_bbp	safe harbor: review - [Mistral call failed — queued for retry] e security community to find vulnerabilities in order to keep our businesses and	4
+kkr_vdp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	60
+zabbix	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	0
+rei_vdp	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	4
+indrive	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	116
+okg	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+stripchat	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
+mozilla	automation: review - [Mistral call failed on full-text check — queued for retry]	21
+eufy_security	automation: review - [Mistral call failed on full-text check — queued for retry]	0
+3cx	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+agoda-public	automation: review - [Mistral call failed on full-text check — queued for retry]	3
+neon_bbp	automation: review - [Mistral call failed on full-text check — queued for retry]	3
+mufg-vdp	automation: review - [Mistral call failed on full-text check — queued for retry]	2
+gogo_vdp	id verification: review - [Mistral call failed on full-text check — queued for retry]	7
