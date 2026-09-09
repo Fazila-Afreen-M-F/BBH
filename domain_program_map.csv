@@ -199,12 +199,6 @@ https://*.motel6.com,hackerone,prism_vdp
 https://*.belvilla.com,hackerone,prism_vdp
 https://*.dancenter.dk,hackerone,prism_vdp
 https://*.g6hospitality.com,hackerone,prism_vdp
-*.captcha-delivery.com,yeswehack,datadome-bot-bounty
-api-js.datadome.co,yeswehack,datadome-bot-bounty
-bounty-fastly.datashield.co,yeswehack,datadome-bot-bounty
-bounty-nginx.datashield.co,yeswehack,datadome-bot-bounty
-bounty-nodejs.datashield.co,yeswehack,datadome-bot-bounty
-js.datadome.co,yeswehack,datadome-bot-bounty
 *.tools.thefork.tech,bugcrowd,thefork-mbb-og
 api-ws.thefork.com,bugcrowd,thefork-mbb-og
 api.thefork.com,bugcrowd,thefork-mbb-og
@@ -243,3 +237,9 @@ https://sks-*.exo.io,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
 *.internal.exoscale.ch,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
 https://www.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
 https://community.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+*.captcha-delivery.com,yeswehack,datadome-bot-bounty
+api-js.datadome.co,yeswehack,datadome-bot-bounty
+bounty-fastly.datashield.co,yeswehack,datadome-bot-bounty
+bounty-nginx.datashield.co,yeswehack,datadome-bot-bounty
+bounty-nodejs.datashield.co,yeswehack,datadome-bot-bounty
+js.datadome.co,yeswehack,datadome-bot-bounty

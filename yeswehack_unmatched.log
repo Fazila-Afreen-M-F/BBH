@@ -1233,3 +1233,64 @@ ezviz-bug-bounty-program	Hardware found on https://www.ezviz.com/category/smart-
 ezviz-bug-bounty-program	*.hicloudcam.com,
 ezviz-bug-bounty-program	*.hikops.com,
 outscale	Any resource created or accessed with the Outscale Cloud on eu-west-2 region -  created by the Hunter
+swiss-post	(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17
+outscale	Any resource created or accessed with the Outscale Cloud on eu-west-2 region -  created by the Hunter
+private-internet-access-bug-bounty-program	PIA VPN servers
+private-internet-access-bug-bounty-program	Applications/Extensions under https://www.privateinternetaccess.com/download
+expressvpn-bug-bounty-program	ExpressVPN APIs
+expressvpn-bug-bounty-program	ExpressVPN VPN servers
+expressvpn-bug-bounty-program	ExpressVPN Router
+expressvpn-bug-bounty-program	Any Applications under https://www.expressvpn.com/latest
+expressvpn-bug-bounty-program	TrustedServer 100,000 Bonus Award (See Program Policy for Info)
+cyberghost-bug-bounty-program	CyberGhost VPN servers
+cyberghost-bug-bounty-program	Applications/Extensions under https://www.cyberghostvpn.com/download
+bug-bounty-program-blablacar	https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua))
+vincisa-public-program	vœux.vinci.com
+vfs-global-bug-bounty-program	*. vfsevisa.id
+decathlon	https://(navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*
+tencent-bug-bounty-program	Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)
+tencent-bug-bounty-program	Non Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)
+swiss-post-evoting	Source Code
+swiss-post-evoting	System Specification
+swiss-post-evoting	Scenarios with Special Bounties
+swiss-post-evoting	Protocol of the Swiss Post Voting System
+fdj-united-online-betting-gaming-bug-bounty-program	www.unibet.(com­|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)
+fdj-united-online-betting-gaming-bug-bounty-program	payment.unibet.(com­|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)
+fdj-united-online-betting-gaming-bug-bounty-program	(se|fi|uk).bingo.com
+fdj-united-online-betting-gaming-bug-bounty-program	/blog/ (or translated equivalent) endpoints on our sites
+doctolib-public-bug-bounty-program	pro.doctolib.(fr|de|it) (see "Free features for healthcare professionals"))
+doctolib-public-bug-bounty-program	Special scenarios (see description)
+doctolib-public-bug-bounty-program	*.doctolib.(fr|de|it|com|net)
+pine-labs-bug-bounty-program	https://pinepgconsole.in:9099
+ant-group-security-response-center-bug-bounty-program	Any Other Applications found here: https://security-en.alipay.com/home
+louis-vuitton-malletier-public-bug-bounty-program	https://[it | fr | us | sg | …].louisvuitton.com
+harman-international-public-bug-bounty	Device: JBL Bar 500MK2
+harman-international-public-bug-bounty	Device: JBL Bar 700MK2
+harman-international-public-bug-bounty	Device: JBL Bar 800MK2
+harman-international-public-bug-bounty	Device: JBL PartyBox Encore 2
+harman-international-public-bug-bounty	Device: JBL Live Beam 3
+harman-international-public-bug-bounty	Device: JBL Flip 7
+harman-international-public-bug-bounty	Device: JBL Tour One M3
+harman-international-public-bug-bounty	Device: JBL Charge 5
+harman-international-public-bug-bounty	Device: JBL Bar 300MK2
+harman-international-public-bug-bounty	Device: JBL Bar 1000MK2
+harman-international-public-bug-bounty	Device: JBL Bar 1300MK2
+harman-international-public-bug-bounty	Device: JBL Authentics 200
+harman-international-public-bug-bounty	Device: JBL Authentics 300
+harman-international-public-bug-bounty	Device: JBL Authentics 500
+harman-international-public-bug-bounty	Device: JBL Boombox 3 Wi-Fi
+harman-international-public-bug-bounty	Device: JBL Charge 5 Wi-Fi
+ezviz-bug-bounty-program	Hardware found on https://www.ezviz.com/category/security-wifi-cameras
+ezviz-bug-bounty-program	Hardware found on https://www.ezviz.com/category/smart-home
+ezviz-bug-bounty-program	*.hicloudcam.com,
+ezviz-bug-bounty-program	*.hikops.com,
+swiss-post	(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17
+private-internet-access-bug-bounty-program	PIA VPN servers
+private-internet-access-bug-bounty-program	Applications/Extensions under https://www.privateinternetaccess.com/download
+expressvpn-bug-bounty-program	ExpressVPN APIs
+expressvpn-bug-bounty-program	ExpressVPN VPN servers
+expressvpn-bug-bounty-program	ExpressVPN Router
+expressvpn-bug-bounty-program	Any Applications under https://www.expressvpn.com/latest
+expressvpn-bug-bounty-program	TrustedServer 100,000 Bonus Award (See Program Policy for Info)
+cyberghost-bug-bounty-program	CyberGhost VPN servers
+cyberghost-bug-bounty-program	Applications/Extensions under https://www.cyberghostvpn.com/download

@@ -1,0 +1,8 @@
+atg-public-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	4
+infomaniak-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	40
+swiss-post	automation: review - [Mistral call failed on full-text check — queued for retry]	3
+programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	2
+dana-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	2
+private-internet-access-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	6
+expressvpn-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	25
+cyberghost-bug-bounty-program	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	6
