@@ -143,8 +143,8 @@ jobs:
           git config --global user.name "BugBountyBot"
           touch lap_done_nuclei_takeover.txt
           git add weekend_offset_takeover.txt weekend_progress_takeover.txt weekend_lasthash_takeover.txt lap_done_nuclei_takeover.txt weekend_total_takeover.txt
-          git diff --staged --quiet || git commit -m "Takeover scanner cycle reset $(date +'%Y-%m-%d %H:%M')"
-          git diff --staged --quiet || {
+          if ! git diff --staged --quiet; then
+            git commit -m "Takeover scanner cycle reset $(date +'%Y-%m-%d %H:%M')"
             for x in 1 2 3 4 5 6 7 8; do
               git push origin data && break
               git fetch origin data
@@ -152,7 +152,7 @@ jobs:
               sleep $((x * 5))
               [ "$x" -eq 8 ] && echo "::warning::reset push failed"
             done
-          }
+          fi
 
       - name: Upload chunk host list
         uses: actions/upload-artifact@v4
