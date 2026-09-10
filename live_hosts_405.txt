@@ -1,7 +1,10 @@
 https://ablistswidgethorizonte.amazon.de
+https://jobs.amazon.co.za
 https://thumbnails-photos.amazon.com.au
 https://thumbnails-photos.amazon.com.mx
 https://thumbnails-photos.amazon.de
+https://thumbnails-photos.amazon.es
+https://thumbnails-photos.amazon.fr
 https://thumbnails-photos.amazon.it
 https://webservices.amazon.com.br
 https://webservices.amazon.com.mx
@@ -9,4 +12,6 @@ https://www22.amazon.cn
 https://www22.amazon.com.au
 https://www22.amazon.com.br
 https://www22.amazon.com.mx
+https://www22.amazon.es
+https://www22.amazon.fr
 https://www22.amazon.it
