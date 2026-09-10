@@ -151,7 +151,6 @@ bitmex	not open (submission_state=paused)	3
 ed	not open (submission_state=paused)	3
 jamieweb	not open (submission_state=paused)	5
 flutteruki	automation ban: [Mistral-confirmed ban, no regex match]	39
-databricks	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
 cosmos	not open (submission_state=paused)	0
 passhash	not open (submission_state=paused)	0
 ycombinator	not open (submission_state=paused)	6

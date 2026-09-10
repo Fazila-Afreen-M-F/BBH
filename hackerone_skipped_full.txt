@@ -14,6 +14,7 @@ weblate	safe harbor: review - [Mistral call failed on implied-safe check — que
 nodejs	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	0
 epicgames	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	69
 valve	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	16
+databricks	automation: review - [Mistral call failed on full-text check — queued for retry]	3
 coalition	safe harbor: review - [Mistral call failed on full-text check — queued for retry]	4
 affirm	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	1
 crowdstrike	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	19
