@@ -99,7 +99,7 @@
 69a64cbf-305d-4f48-90e5-0b7377c67bac	Grafana Labs - Vulnerability Disclosure Program (VDP): no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 6beaf9ec-e307-4415-a93e-0e4262b5ee4b	12Build Bug Bounty Program: not public (confidentialityLevel=Application)	0
 6bec8ce6-1494-4bf7-89cc-416f7d584fd4	Probiller Bug Bounty Program: private/invite-gated program, no API access	0
-6c8455c8-66b7-4360-bc6d-45b854c6fa85	Posti Bug Bounty : not open (status=Suspended)	0
+6c8455c8-66b7-4360-bc6d-45b854c6fa85	Posti Bug Bounty : no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	41
 6d1b587f-8d04-471f-939e-0ed401537c51	ZOwonen: not public (confidentialityLevel=Registered)	0
 6e7a62cb-e227-4280-8c34-81646485d899	Belfius: not public (confidentialityLevel=Application)	0
 6f24c2d0-b1f2-4c31-948d-eeba16e80099	Attentia VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1

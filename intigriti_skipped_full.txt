@@ -1,3 +1,6 @@
 10eb5e95-08e2-4f4e-8d22-f8c600a7acff	Intel®: automation: review - [Mistral call failed on full-text check — queued for retry]	0
+82be1e9b-f9ab-45e7-82fd-9ba65be37645	Tempo-Team : automation: review - [Mistral call failed on full-text check — queued for retry]	5
 b2049472-b637-49c3-b9cc-077c676f093c	Randstad: automation: review - [Mistral call failed on full-text check — queued for retry]	3
+baca9d50-2fd8-427f-bd56-e67f7f058573	BMC: automation: review - [Mistral call failed on full-text check — queued for retry]	1
+bbc2d49d-6b11-40af-9746-aefa64756928	Yacht: automation: review - [Mistral call failed on full-text check — queued for retry]	1
 c1a89c7e-5de0-435d-a30f-a8c16e65ccfc	Adobe Public: automation: review - [Mistral call failed on full-text check — queued for retry]	19
