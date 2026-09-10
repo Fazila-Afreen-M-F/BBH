@@ -72,26 +72,26 @@ acorns	no explicit automation permission (silent): [No automation ban found, but
 onward-software-solutions-inc	automation ban: [Mistral-confirmed ban, no regex match]	1
 volkswagen-og	automation ban: [Mistral-confirmed ban] to be created, please use your @bugcrowdninja.com email 	1
 k15t	automation ban: [Mistral-confirmed ban, no regex match]	1
-volkswagen-vwfs-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	20
-epam-mbb-og	automation ban: [Mistral-confirmed ban, no regex match]	12
 entain-glf-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 moveworkforward	automation ban: [Mistral-confirmed ban, no regex match]	1
 quintoandar	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
 mobilitystream	automation ban: [Mistral-confirmed ban, no regex match]	1
 vox	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
-hypixel-studios-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 metainfkft	automation ban: [Mistral-confirmed ban, no regex match]	1
-canva	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
 pixabay	automation ban: [Mistral-confirmed ban, no regex match]	1
 indeed	automation ban: [Mistral-confirmed ban, no regex match]	4
 sky-plc-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 saasjet	automation ban: [Mistral-confirmed ban, no regex match]	1
 afterpay	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-rea-mbb-og	automation ban: [Mistral-confirmed ban, no regex match]	26
 accxia-gmbh	automation ban: [Mistral-confirmed ban, no regex match]	1
 fivetran-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 tyler-tech-data-insights	automation ban: [Mistral-confirmed ban, no regex match]	2
 sky-plc-mbb-og1	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
+volkswagen-vwfs-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	20
+hypixel-studios-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
+canva	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
+epam-mbb-og	automation ban: [Mistral-confirmed ban, no regex match]	12
+rea-mbb-og	automation ban: [Mistral-confirmed ban, no regex match]	26
 xfinity-home	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 appsvio	automation ban: [Mistral-confirmed ban, no regex match]	1
 colined	automation ban: [Mistral-confirmed ban, no regex match]	1
@@ -99,17 +99,13 @@ deviniti	automation ban: [Mistral-confirmed ban, no regex match]	1
 stagil	automation ban: [Mistral-confirmed ban, no regex match]	1
 inprowiser	automation ban: [Mistral-confirmed ban, no regex match]	1
 devsamurai	automation ban: [Mistral-confirmed ban, no regex match]	1
-usaa	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	47
 neohrms	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	17
 codefortynine	automation ban: [Mistral-confirmed ban, no regex match]	1
-sky-plc-mbb-og2	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 ost-consulting-market	automation ban: [Mistral-confirmed ban, no regex match]	2
 stiltsoft	automation ban: [Mistral-confirmed ban, no regex match]	1
 coindesk-mobile-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 caelor-group-market	automation ban: [Mistral-confirmed ban, no regex match]	1
-browserstack-market	automation ban: [Mistral-confirmed ban, no regex match]	1
 hpe-networking-product-public	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
-asana	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 opsgenie	automation ban: [Mistral-confirmed ban, no regex match]	3
 etsy	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
 thousandeyes-og	automation ban: [Mistral-confirmed ban, no regex match]	2
@@ -117,20 +113,24 @@ cfr	rate limit below 5/s (found: 2.0)	3
 skroutz	automation ban: [Mistral-confirmed ban, no regex match]	1
 fis	automation ban: [Mistral-confirmed ban, no regex match]	0
 lightspeed-retail	automation ban: [Mistral-confirmed ban, no regex match]	4
-glassdoor-ogbb	automation ban: [Mistral-confirmed ban, no regex match]	1
 square	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 carrefour	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
 wise	requires ID verification: [Mistral-implied ID requirement, no explicit language]	6
 classdojo	automation ban: [Mistral-confirmed ban, no regex match]	14
-keepersecurity	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
-tamedia	automation ban: [Mistral-confirmed ban, no regex match]	1
+browserstack-market	automation ban: [Mistral-confirmed ban, no regex match]	1
+sky-plc-mbb-og2	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 auth0-okta	automation ban: [Mistral-confirmed ban, no regex match]	15
-brizoit	automation ban: [Mistral-confirmed ban, no regex match]	1
 atlassian	automation ban: [Mistral-confirmed ban, no regex match]	14
-clickhouse	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
+usaa	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	47
+tamedia	automation ban: [Mistral-confirmed ban, no regex match]	1
+glassdoor-ogbb	automation ban: [Mistral-confirmed ban, no regex match]	1
 bitdefender	automation ban: [Mistral-confirmed ban, no regex match]	3
 aiven-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
+clickhouse	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
+keepersecurity	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 recorded-future-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	18
+brizoit	automation ban: [Mistral-confirmed ban, no regex match]	1
+asana	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 personalcapital	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 directly	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 seek-com	automation ban: [Mistral-confirmed ban] a job ad !! Denial of Service, Rate Limiting, and other 	0
@@ -146,50 +146,44 @@ agile-pulse	automation ban: [Mistral-confirmed ban, no regex match]	1
 coindesk-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 craftcoders	automation ban: [Mistral-confirmed ban, no regex match]	0
 izymes	automation ban: [Mistral-confirmed ban, no regex match]	1
-bullish-exchange	automation ban: [Mistral-confirmed ban, no regex match]	2
 originenergy-og1	automation ban: [Mistral-confirmed ban, no regex match]	21
 skyscanner	automation ban: [Mistral-confirmed ban, no regex match]	1
 gliffy	automation ban: [Mistral-confirmed ban, no regex match]	1
-maffashion	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	11
-backblaze	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
-linktree-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
-twentyminuten	automation ban: [Mistral-confirmed ban] lated submissions No aggressive automated scans as these	7
 litew8	automation ban: [Mistral-confirmed ban, no regex match]	1
 eazybi	automation ban: [Mistral-confirmed ban, no regex match]	2
 marvelutionbv	automation ban: [Mistral-confirmed ban, no regex match]	1
-soundcloud	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	8
 quizlet	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 navan	automation ban: [Mistral-confirmed ban, no regex match]	1
 blofin-crypto-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
-simplisafe	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	12
-flourish	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
 kiteworks-public	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
+soundcloud	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	8
+twentyminuten	automation ban: [Mistral-confirmed ban] lated submissions No aggressive automated scans as these	7
+maffashion	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	11
+linktree-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
+flourish	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
+bullish-exchange	automation ban: [Mistral-confirmed ban, no regex match]	2
 pinterest	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
+backblaze	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
 openai	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
+simplisafe	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	12
 shipwire	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 orderlynetwork-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 orderlynetwork-mbb-og2	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 zola-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 comcast-mbb	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-nemetschek	automation ban: [Mistral-confirmed ban, no regex match]	1
 quirk-consulting	automation ban: [Mistral-confirmed ban, no regex match]	1
 easyagile	automation ban: [Mistral-confirmed ban, no regex match]	1
 ultramobile-public	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
 marketplaceexpert	automation ban: [Mistral-confirmed ban, no regex match]	1
-imperva-mbb	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
 agilislt	automation ban: [Mistral-confirmed ban, no regex match]	1
 resolutionde	automation ban: [Mistral-confirmed ban, no regex match]	1
 blockopensource	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 redmoon	automation ban: [Mistral-confirmed ban] ulnerability, report it immediately; do not attempt to v	1
-kantega	automation ban: [Mistral-confirmed ban, no regex match]	1
-bullish	automation ban: [Mistral-confirmed ban, no regex match]	2
 kohls	automation ban: [Mistral-confirmed ban] ith your own test account) Deserialization vulnerabiliti	1
 JaangaInc-mbb-market	automation ban: [Mistral-confirmed ban, no regex match]	1
 irobot	automation ban: [Mistral-confirmed ban] rabilities. NOTE! [Please Read Fully Before Beginning Or	17
 entain-public-mbb-og	automation ban: [Mistral-confirmed ban, no regex match]	7
-mallofemirates	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
 upwork	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
-wyze	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
 freedomofpress	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 radbee	automation ban: [Mistral-confirmed ban, no regex match]	1
 tidal-bugbounty	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -197,15 +191,21 @@ kaleido	no explicit automation permission (silent): [No automation ban found, bu
 optimizely	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
 refined2	automation ban: [Mistral-confirmed ban, no regex match]	2
 celix-solutions-market	automation ban: [Mistral-confirmed ban, no regex match]	1
-moneytreekkog	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
 balsamiq	automation ban: [Mistral-confirmed ban, no regex match]	1
 felix-health-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
-seek	automation ban: [Mistral-confirmed ban] s Denial of Service, Rate Limiting, and other automated/	14
-pantheon	automation ban: [Mistral-confirmed ban, no regex match]	1
 plusgrade-mbb-public	requires ID verification: [Mistral-implied ID requirement, no explicit language]	1
 opera	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	54
-latitude-financial-service-bugbounty	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	25
 boja	automation ban: [Mistral-confirmed ban, no regex match]	1
+imperva-mbb	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
+moneytreekkog	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
+wyze	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
+bullish	automation ban: [Mistral-confirmed ban, no regex match]	2
+nemetschek	automation ban: [Mistral-confirmed ban, no regex match]	1
+seek	automation ban: [Mistral-confirmed ban] s Denial of Service, Rate Limiting, and other automated/	14
+pantheon	automation ban: [Mistral-confirmed ban, no regex match]	1
+latitude-financial-service-bugbounty	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	25
+mallofemirates	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
+kantega	automation ban: [Mistral-confirmed ban, no regex match]	1
 nextupai	automation ban: [Mistral-confirmed ban, no regex match]	0
 odesk	safe harbor not confirmed: no safe-harbor language found in full policy text	0
 hotdoc	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -218,7 +218,6 @@ aelbox	automation ban: [Mistral-confirmed ban, no regex match]	1
 soteri	automation ban: [Mistral-confirmed ban, no regex match]	1
 FindOut-infovis	automation ban: [Mistral-confirmed ban, no regex match]	1
 barracuda	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
-bugcrowd	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
 atlassianapps	automation ban: [Mistral-confirmed ban, no regex match]	2
 dutch-beginners-market	automation ban: [Mistral-confirmed ban, no regex match]	1
 opus-guard-market	automation ban: [Mistral-confirmed ban, no regex match]	1
@@ -232,23 +231,24 @@ smartchain-mbb-og	no explicit automation permission (silent): [No automation ban
 CCData-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
 binance	automation ban: [Mistral-confirmed ban, no regex match]	10
 lightspeed-hospitality	automation ban: [Mistral-confirmed ban, no regex match]	3
-cloudinary	automation ban: [Mistral-confirmed ban, no regex match]	5
 stonikbyte	automation ban: [Mistral-confirmed ban, no regex match]	1
 navarambh	automation ban: [Mistral-confirmed ban, no regex match]	1
 cisconetworking	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
-legacy-blockchain-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
-tesla	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
-opensea	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 cashapp	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-prosus-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	10
-fireblocks-mbb-og2	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 fiftyfivedegrees	automation ban: [Mistral-confirmed ban, no regex match]	1
-intercom	automation ban: [Mistral-confirmed ban, no regex match]	9
-arlo	automation ban: [Mistral-confirmed ban, no regex match]	5
-unity	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	9
-trello	automation ban: [Mistral-confirmed ban, no regex match]	4
 pexels	automation ban: [Mistral-confirmed ban, no regex match]	1
 elementor	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	8
 we-weave	automation ban: [Mistral-confirmed ban, no regex match]	1
-codeclou	automation ban: [Mistral-confirmed ban, no regex match]	1
+bugcrowd	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
+arlo	automation ban: [Mistral-confirmed ban, no regex match]	5
+trello	automation ban: [Mistral-confirmed ban, no regex match]	4
+prosus-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	10
 dell-com	automation ban: [Mistral-confirmed ban, no regex match]	1
+cloudinary	automation ban: [Mistral-confirmed ban, no regex match]	5
+codeclou	automation ban: [Mistral-confirmed ban, no regex match]	1
+tesla	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
+fireblocks-mbb-og2	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
+intercom	automation ban: [Mistral-confirmed ban, no regex match]	9
+opensea	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
+unity	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	9
+legacy-blockchain-mbb-og	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
