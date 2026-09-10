@@ -130,6 +130,30 @@ def fetch_json(url, headers=None, timeout=40, max_retries=5):
             return None, f"{type(e).__name__}: {e}"
         except (json.JSONDecodeError, KeyError, TypeError) as e:
             return None, f"{type(e).__name__}: {e}"
+
+
+def fetch_text(url, headers=None, timeout=40, max_retries=5):
+    req = urllib.request.Request(url, headers=headers or {})
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode(), None
+        except urllib.error.HTTPError as e:
+            retryable = e.code in (403, 429) or e.code >= 500
+            if retryable and attempt < max_retries - 1:
+                retry_after = e.headers.get("Retry-After") if e.headers else None
+                wait = float(retry_after) if retry_after else (2 ** attempt)
+                log(f"[RATE LIMIT] {url} -> {e.code}, retrying in {wait}s (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait)
+                continue
+            return None, f"HTTPError {e.code}"
+        except (urllib.error.URLError, socket.timeout) as e:
+            if attempt < max_retries - 1:
+                wait = 2 ** attempt
+                log(f"[NETWORK] {url} -> {type(e).__name__}: {e}, retrying in {wait}s (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait)
+                continue
+            return None, f"{type(e).__name__}: {e}"
     return None, "max_retries_exceeded"
 
 
@@ -205,7 +229,7 @@ def mistral_check_safe_harbor(text, program_name):
         f"Text:\n{text[:8000]}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
@@ -326,7 +350,7 @@ def mistral_check_implied_safe(text, program_name):
         f"Text:\n{text[:8000]}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
@@ -453,7 +477,7 @@ def mistral_check_id_verification(snippet, program_name):
         f"Text:\n{snippet}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
@@ -560,7 +584,7 @@ def mistral_check_implied_id_required(text, program_name):
         f"Text:\n{text[:8000]}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
@@ -697,7 +721,7 @@ def mistral_check_rate_limit(text, program_name):
         f"Text:\n{text[:8000]}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
@@ -1173,7 +1197,7 @@ def mistral_check_out_of_scope_negation(entry_text, domain, program_name):
         f"means X IS in scope, not out of scope). Text:\n{entry_text[:2000]}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 300,
@@ -1347,80 +1371,78 @@ def vet_yeswehack_program(program, results):
     })
 
 
+def _hp_deref(raw, val, depth=0, maxdepth=8):
+    if depth > maxdepth or not isinstance(val, int):
+        return val
+    v = raw[val]
+    if isinstance(v, list) and len(v) == 2 and isinstance(v[0], str) and v[0] in ("ShallowReactive", "Reactive"):
+        return _hp_deref(raw, v[1], depth + 1, maxdepth)
+    if isinstance(v, dict):
+        return {k: _hp_deref(raw, x, depth + 1, maxdepth) for k, x in v.items()}
+    if isinstance(v, list):
+        return [_hp_deref(raw, x, depth + 1, maxdepth) for x in v]
+    return v
+
+
+def fetch_hackenproof_program(slug):
+    body, err = fetch_text(
+        f"https://hackenproof.com/programs/{slug}",
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},
+        timeout=20,
+    )
+    if err:
+        return None, err
+    m = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', body, re.DOTALL)
+    if not m:
+        return None, "NUXT_DATA not found"
+    try:
+        raw = json.loads(m.group(1))
+    except Exception as e:
+        return None, f"JSON parse error: {e}"
+    try:
+        root = raw[1]
+        data_obj = _hp_deref(raw, root["data"], maxdepth=1)
+        program = _hp_deref(raw, data_obj["program"], maxdepth=6)
+    except Exception as e:
+        return None, f"NUXT_DATA shape error: {e}"
+    if not isinstance(program, dict) or "state" not in program:
+        return None, "unexpected program shape"
+    return program, None
+
+
 def discover_hackenproof():
-    programs = []
-    page = 1
-    auth_cookie = os.environ.get("HACKENPROOF_AUTH", "")
-    while True:
-        data, err = fetch_json(
-            f"https://dashboard.hackenproof.com/api/internal/user/opportunities"
-            f"?page={page}&per_page=50&not_audits=true&order_by%5Bpublished_date%5D=desc",
-            {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-                "Accept": "application/json, text/plain, */*",
-                "Accept-Language": "en-US,en;q=0.9",
-                "Referer": "https://dashboard.hackenproof.com/user/programs?tab=bounties",
-                "sec-ch-ua": '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
-                "sec-ch-ua-mobile": "?0",
-                "sec-ch-ua-platform": '"Windows"',
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "same-origin",
-                "Cookie": auth_cookie,
-            },
-        )
-        if err:
-            log(f"[HackenProof] page {page} fetch failed: {err}")
-            break
-        batch = data.get("programs", [])
-        if not batch:
-            break
-        programs.extend(batch)
-        next_page = data.get("next_page")
-        if not next_page:
-            break
-        page = next_page
-        time.sleep(0.3)
-    log(f"[HackenProof] discovered {len(programs)} total programs")
+    body, err = fetch_text(
+        "https://hackenproof.com/sitemap.xml",
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},
+        timeout=20,
+    )
+    if err:
+        log(f"[HackenProof] sitemap fetch failed: {err}")
+        return []
+    slugs = re.findall(r"<loc>https://hackenproof\.com/programs/([^<]+)</loc>", body)
+    programs = [{"slug": s} for s in slugs]
+    log(f"[HackenProof] discovered {len(programs)} total programs (via sitemap)")
     return programs
 
 
 def vet_hackenproof_program(program, results):
     slug = program["slug"]
-    if program.get("state") != "published":
-        results["excluded"].append((slug, f"not open (state={program.get('state')})", 0))
-        return
-    if (program.get("status") or {}).get("name") != "Active":
-        results["excluded"].append((slug, f"not active (status={(program.get('status') or {}).get('name')})", 0))
-        return
-    if program.get("private") is True:
-        results["excluded"].append((slug, "not public", 0))
-        return
-    if program.get("audit_program") is True:
-        results["excluded"].append((slug, "audit program, not BBP", 0))
-        return
-    auth_cookie = os.environ.get("HACKENPROOF_AUTH", "")
-    data, err = fetch_json(
-        f"https://dashboard.hackenproof.com/api/internal/user/opportunities/{slug}",
-        {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
-                "Accept": "application/json, text/plain, */*",
-                "Accept-Language": "en-US,en;q=0.9",
-                "Referer": "https://dashboard.hackenproof.com/user/programs?tab=bounties",
-                "sec-ch-ua": '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
-                "sec-ch-ua-mobile": "?0",
-                "sec-ch-ua-platform": '"Windows"',
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "same-origin",
-                "Cookie": auth_cookie,
-            },
-    )
+    data, err = fetch_hackenproof_program(slug)
     time.sleep(0.3)
     if err:
-        results["skipped"].append((slug, err, 0))
+        results["skipped"].append((slug, f"fetch/parse error: {err}", 0))
         return
-    scopes = data.get("scopes", [])
+    if data.get("state") != "published":
+        results["excluded"].append((slug, f"not open (state={data.get('state')})", 0))
+        return
+    activity_name = (data.get("activityStatus") or {}).get("name")
+    if activity_name and activity_name != "Active":
+        results["excluded"].append((slug, f"not active (status={activity_name})", 0))
+        return
+    if data.get("isAudit") is True:
+        results["excluded"].append((slug, "audit program, not BBP", 0))
+        return
+    scopes = data.get("scopes", []) or []
     domains = sorted(set(
         d for s in scopes if not s.get("out_of_scope")
         for d in [extract_root_domain(s.get("target", ""))] if d
@@ -1432,12 +1454,12 @@ def vet_hackenproof_program(program, results):
     if out_domains:
         domains = sorted(set(domains) - set(out_domains))
     domain_count = len(domains)
-    id_verification_override = program.get("kyc_required")
+    id_verification_override = data.get("kycRequired")
     rules = " ".join(filter(None, [
-        data.get("program_rules", ""),
-        data.get("focus_area", ""),
-        data.get("eligibility_and_coordinate_disclosure", ""),
-        data.get("disclosure_guidelines", ""),
+        data.get("programRules", ""),
+        data.get("focusArea", ""),
+        data.get("eligibilityAndCoordinateDisclosure", ""),
+        data.get("disclosureGuidelines", ""),
     ]))
     ev = evaluate_policy_conditions(rules, slug, MIN_RATE_LIMIT, id_verification_override=id_verification_override)
     if ev["hard_fail"]:
@@ -2285,7 +2307,7 @@ def mistral_check_ban(snippet, program_name):
         f"Snippet:\n{snippet}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 1200,
@@ -2406,7 +2428,7 @@ def mistral_check_automation_allowed(snippet, program_name):
         f"Snippet:\n{snippet}"
     )
     body = json.dumps({
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 700,
