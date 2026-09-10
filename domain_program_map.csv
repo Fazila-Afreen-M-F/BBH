@@ -208,6 +208,13 @@ bounty-fastly.datashield.co,yeswehack,datadome-bot-bounty
 bounty-nginx.datashield.co,yeswehack,datadome-bot-bounty
 bounty-nodejs.datashield.co,yeswehack,datadome-bot-bounty
 js.datadome.co,yeswehack,datadome-bot-bounty
+https://portal.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+https://api-*exoscale.com/v2,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+https://sos-*.exo.io,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+https://sks-*.exo.io,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+*.internal.exoscale.ch,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+https://www.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
+https://community.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
 www.arrowfilms.com,bugcrowd,hutgroup-public
 www.cultbeauty.co.uk,bugcrowd,hutgroup-public
 www.enjoyselfish.com,bugcrowd,hutgroup-public
@@ -236,10 +243,3 @@ secure.thefork.com,bugcrowd,thefork-mbb-og
 widget.thefork.com,bugcrowd,thefork-mbb-og
 www.restaurant-information.com,bugcrowd,thefork-mbb-og
 www.theforkmanager.com,bugcrowd,thefork-mbb-og
-https://portal.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-https://api-*exoscale.com/v2,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-https://sos-*.exo.io,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-https://sks-*.exo.io,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-*.internal.exoscale.ch,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-https://www.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
-https://community.exoscale.com/,intigriti,4d41a636-c811-4757-8fd9-007d7f18e212
