@@ -372,9 +372,10 @@ magic-eden	no explicit automation permission (silent): [No automation ban found,
 greenfly	not open (submission_state=paused)	2
 pornbox	automation ban: [Mistral-confirmed ban, no regex match]	4
 abn_amro_vdp	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	19
-superbet	automation ban: [Mistral-confirmed ban] ***Please limit the amount of requests to max 50/second*	22
+superbet	automation ban: [Mistral-confirmed ban] ***Please limit the amount of requests to max 50/second*	23
 redox_bbp	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	9
 tron_dao	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
+mozilla	not open (submission_state=paused)	21
 fertitta_entertainment	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	21
 truist_financial	automation ban: [Mistral-confirmed ban] ms reside, (ii) data traffic is routed or (iii) the rese	14
 brightspeed	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
@@ -459,7 +460,7 @@ hertz	no explicit automation permission (silent): [No automation ban found, but 
 worldpay	automation ban: [Mistral-confirmed ban, no regex match]	3
 kong	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
 citi_group	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-tbs-sct	automation ban: [Mistral-confirmed ban, no regex match]	19
+tbs-sct	automation ban: [Mistral-confirmed ban, no regex match]	20
 tucows_vdp	no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	11
 meesho_bbp	automation ban: [Mistral-confirmed ban] vacy violations, service disruptions, and any actions th	8
 braze_inc	automation ban: [Mistral-confirmed ban] e *bug-bounty-*.braze-dev.com hosts listed below — **all	1

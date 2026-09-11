@@ -70,7 +70,6 @@ rei_vdp	safe harbor: review - [Mistral call failed on implied-safe check — que
 indrive	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	116
 okg	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
 stripchat	safe harbor: review - [Mistral call failed on implied-safe check — queued for retry]	2
-mozilla	automation: review - [Mistral call failed on full-text check — queued for retry]	21
 eufy_security	automation: review - [Mistral call failed on full-text check — queued for retry]	0
 3cx	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 agoda-public	automation: review - [Mistral call failed on full-text check — queued for retry]	3
