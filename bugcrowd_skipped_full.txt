@@ -2,19 +2,19 @@ matlab-online	automation: review - [Mistral call failed on full-text check — q
 internetbrands-public	automation: review - [Mistral call failed on full-text check — queued for retry]	20
 mattermost-mbb-public	automation: review - [Mistral call failed on full-text check — queued for retry]	3
 shinetech-software-market	automation: review - [Mistral call failed on full-text check — queued for retry]	1
-spacex	automation: review - [Mistral call failed on full-text check — queued for retry]	0
 monash-mbb	automation: review - [Mistral call failed on full-text check — queued for retry]	39
 cappsule-sarl	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+spacex	automation: review - [Mistral call failed on full-text check — queued for retry]	0
 vectors-marketplace	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 digitalrose	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 t-mobile	automation: review - [Mistral call failed on full-text check — queued for retry]	67
 okapya	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 epicsumup	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 xopero-software-marketplace	automation: review - [Mistral call failed on full-text check — queued for retry]	1
-catapultlabs	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 railsware	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+catapultlabs	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 akeles	safe harbor: review - [Mistral call failed — queued for retry] Ltd written consent will have any allocated bounty withdrawn and disqualified fr	1
 octopus-og	automation: review - [Mistral call failed on full-text check — queued for retry]	3
 creativas	automation: review - [Mistral call failed on full-text check — queued for retry]	1
-savignano	automation: review - [Mistral call failed on full-text check — queued for retry]	1
 codecentric	automation: review - [Mistral call failed on full-text check — queued for retry]	1
+savignano	automation: review - [Mistral call failed on full-text check — queued for retry]	1
