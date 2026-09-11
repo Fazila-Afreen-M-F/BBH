@@ -278,13 +278,13 @@ def mistral_check_safe_harbor(text, program_name):
                     _MISTRAL_QUOTA_EXHAUSTED_UNTIL = time.time() + ra_val
                     break
             if e.code in (503, 429) and attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, text[:200], None, None, error=str(last_err))
@@ -395,13 +395,13 @@ def mistral_check_implied_safe(text, program_name):
                     _MISTRAL_QUOTA_EXHAUSTED_UNTIL = time.time() + ra_val
                     break
             if e.code in (503, 429) and attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, text[:200], None, None, error=str(last_err))
@@ -547,7 +547,7 @@ def mistral_check_id_verification(snippet, program_name):
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, snippet, None, None, error=str(last_err))
@@ -627,13 +627,13 @@ def mistral_check_implied_id_required(text, program_name):
                     _MISTRAL_QUOTA_EXHAUSTED_UNTIL = time.time() + ra_val
                     break
             if e.code in (503, 429) and attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, text[:200], None, None, error=str(last_err))
@@ -807,7 +807,7 @@ def mistral_check_rate_limit(text, program_name):
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, text[:200], None, None, error=str(last_err))
@@ -1273,7 +1273,7 @@ def mistral_check_out_of_scope_negation(entry_text, domain, program_name):
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, entry_text[:200], None, None, error=str(last_err))
@@ -2238,7 +2238,7 @@ _MISTRAL_CACHE = load_mistral_cache()
 _MISTRAL_QUOTA_EXHAUSTED_UNTIL = 0
 _MISTRAL_CALLS_SINCE_SAVE = 0
 _MISTRAL_LAST_CALL_TS = [0.0]
-MISTRAL_MIN_INTERVAL_S = 16  # stay under 4 req/min free-tier cap with margin
+MISTRAL_MIN_INTERVAL_S = 20  # 3 req/min, real margin under 4/min cap
 
 def _mistral_pace():
     elapsed = time.time() - _MISTRAL_LAST_CALL_TS[0]
@@ -2387,7 +2387,7 @@ def mistral_check_ban(snippet, program_name):
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, snippet, None, None, error=str(last_err))
@@ -2491,7 +2491,7 @@ def mistral_check_automation_allowed(snippet, program_name):
         except Exception as e:
             last_err = e
             if attempt < 2:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(15 * (attempt + 1))
                 continue
             break
     log_mistral_call(program_name, snippet, None, None, error=str(last_err))
