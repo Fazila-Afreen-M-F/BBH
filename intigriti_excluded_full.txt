@@ -10,15 +10,16 @@
 0b7bb6fd-9e64-435f-b944-ded6d6eec842	Atolls Vulnerability Disclosure Program (VDP): no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 0bcc2455-bd63-490b-b725-890a93a1c678	Fing Bug Bounty Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
 0bcf5043-a086-4bfe-9542-4dc58c575b41	Wireless Logic: not public (confidentialityLevel=Application)	0
-0caa10ae-b946-433c-9bdf-080a7588456d	House of HR: not open (status=Suspended)	0
+0caa10ae-b946-433c-9bdf-080a7588456d	House of HR: not public (confidentialityLevel=Registered)	0
 0cff4473-e61f-47fa-b840-154a75128796	Superdrug: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	24
 0d0034de-b53e-47b8-9a9d-41c302c49b5a	Torfs: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
 0d585f25-b705-4141-a961-66d6ade8942e	SimScale: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 0d6d1230-beb5-489c-b306-cf9c2e06730f	De Volkskrant: automation ban: [Mistral-confirmed ban, no regex match]	4
 0f05f9cd-03e1-4f90-a449-2f43cdaf879a	Port of Antwerp-Bruges: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	45
 0f95dabb-d299-4574-befc-bb96a3bafb42	Visma: not open (status=Suspended)	0
-0fd1d85b-2d33-4966-b5a0-caabfda5108e	Ninja Kiwi Games Bug Bounty program: not open (status=Suspended)	0
+0fd1d85b-2d33-4966-b5a0-caabfda5108e	Ninja Kiwi Games Bug Bounty program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
 104ed53e-3c29-4d16-b89a-d322c9df5e9a	MAGNIFIC VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
+10eb5e95-08e2-4f4e-8d22-f8c600a7acff	Intel®: not open (status=Suspended)	0
 11b73072-3c8c-44a4-82b2-80203a7fc6f8	RAMPF Bug Bounty: not public (confidentialityLevel=Application)	0
 12715f4b-d10e-415f-a309-6ab042f6158a	Doccle Bug Bounty program: not public (confidentialityLevel=Application)	0
 13cfc6fe-92b2-4a56-8577-855ff0bc2f1c	Cyber Security Coalition: automation ban: [Mistral-confirmed ban, no regex match]	0
@@ -31,7 +32,7 @@
 1cf88d51-7927-4747-af33-204f6f1c161f	DHL Group Vulnerability Disclosure Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 1d157658-40d2-4472-89a3-b0cab2208220	Coveo VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
 1d422a3f-7d6c-47b7-8d65-6e118bb50e86	MijnJessa: not public (confidentialityLevel=Registered)	0
-1dcf052a-9cd7-4278-99d1-3c037efbf781	Donorbox VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
+1dcf052a-9cd7-4278-99d1-3c037efbf781	Donorbox Vulnerability Disclosure Project: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 1e325f65-37de-4094-9079-217e27cab00b	WP Engine VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 201f8ade-4d93-4d8b-b371-af5ed9d8b837	RIPE NCC: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
 23f5d877-7948-4740-830c-393e66753fc4	Monzo Public Bug Bounty Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	4
@@ -57,10 +58,10 @@
 3f79ce72-f3f5-4ec4-9b4b-b8328d577e78	Qualified Responsible Disclosure Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	3
 406fd572-83b2-49de-9200-594c484d5bb9	Het Parool: automation ban: [Mistral-confirmed ban, no regex match]	6
 40fa9bfb-7476-44cc-bad3-846da936c672	TrafficJunky Bug Bounty Program: private/invite-gated program, no API access	0
-4352dcef-dfc5-4d74-8fd8-9bef5aa16f18	Skoda Auto Bug Bounty Program: not open (status=Suspended)	0
+4352dcef-dfc5-4d74-8fd8-9bef5aa16f18	Skoda Auto Bug Bounty Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 43c4b274-ccbd-4ea2-8047-d40b0b4205ac	Libelle: automation ban: [Mistral-confirmed ban, no regex match]	3
 452a516e-fc32-4285-96e5-97ad5e5e9595	RGF BE - VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-474db664-f7ab-4fc5-8a2d-061096bf19bf	SolarWinds Serv-U : not public (confidentialityLevel=Registered)	0
+474db664-f7ab-4fc5-8a2d-061096bf19bf	SolarWinds Serv-U BBP: not public (confidentialityLevel=Registered)	0
 48853273-690a-4555-8ac5-821a1c464312	Capital.com: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
 495935c2-44bf-4eb5-81b4-dac0daa38b79	Telenet - Base - Wyre - Tadaam: private/invite-gated program, no API access	0
 4981522f-5675-4f46-b7b7-e065d30c8d79	Cross Border Fines: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -88,9 +89,9 @@
 611efbaa-333e-4b7c-a3c0-89665abd3fe3	Altera: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 618a4498-8882-406f-bfe1-b44b9acd0146	University of Basel VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 61e0e37c-19cc-4abe-af51-108a78bee995	BMW Group: automation ban: [Mistral-confirmed ban, no regex match]	6
-628aafa9-b3ef-4967-a783-2fe4803be088	Leapsome: not open (status=Suspended)	0
+628aafa9-b3ef-4967-a783-2fe4803be088	Leapsome: not public (confidentialityLevel=Application)	0
 64990067-ee7f-45f0-8c75-34761f46a056	SolarWinds VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
-64f80113-969e-4c55-9649-8a044487941c	PDQ bug bounty program: not open (status=Suspended)	0
+64f80113-969e-4c55-9649-8a044487941c	PDQ bug bounty program: automation ban: [Mistral-confirmed ban, no regex match]	4
 6558543a-236f-4e98-91a3-4536e39b9c1e	intigriti: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	5
 67d5a491-4baa-4565-bdc9-962bcd5f5ddd	Humo: automation ban: [Mistral-confirmed ban, no regex match]	6
 67f303d5-5c5b-44ec-a278-874f818fbc48	Nestlé VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -104,7 +105,7 @@
 6e7a62cb-e227-4280-8c34-81646485d899	Belfius: not public (confidentialityLevel=Application)	0
 6f24c2d0-b1f2-4c31-948d-eeba16e80099	Attentia VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	1
 7043a1a4-76cf-4fef-98a9-d5d2c84d1f05	Webnode: not open (status=Suspended)	0
-72251963-9df7-4fab-af7d-35d0305d63cc	Sqills S3 Passenger: not open (status=Suspended)	0
+72251963-9df7-4fab-af7d-35d0305d63cc	Sqills S3 Passenger: not public (confidentialityLevel=Registered)	0
 724ad196-90de-4ba8-bf21-dc114ab7fce4	Trusted Firmware: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 768ad323-335b-4710-9370-6b81925c122f	Kinepolis Group: not open (status=Suspended)	0
 784ffbc6-daaa-4e7e-8eba-c38a101d7b12	Voi Vulnerability Disclosure Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -112,7 +113,7 @@
 7999e698-363d-49e2-bd34-4ce47556d03c	Water-Link: automation ban: [Mistral-confirmed ban, no regex match]	7
 7a233e93-7ba8-4459-a128-cc9a8ec2230c	My.sdworx.com: not public (confidentialityLevel=Application)	0
 7ce36749-76cb-44f7-8231-082994146600	Tekion VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
-7d2af06f-9f70-4561-9ba6-4c044274a94a	TrueLayer VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
+7d2af06f-9f70-4561-9ba6-4c044274a94a	TrueLayer VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	11
 7e3ebdf6-3679-418d-b3e6-faa1fc6344bb	Admissions for Students: not public (confidentialityLevel=Registered)	0
 7ecdd3d1-a794-4ceb-9518-f9a016dc26a6	BMW Group Automotive: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 806f54d7-a85d-40bd-82cc-f09c1a500f28	DPG Media: automation ban: [Mistral-confirmed ban, no regex match]	2
@@ -139,7 +140,7 @@
 a057e36b-1c6a-4804-9291-76eff14cc09e	VCF - VMware Cloud Director: not open (status=Suspended)	0
 a09e497e-fd75-4b56-afa0-7a6689389b76	e-tracker: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 a1f02fde-436d-46ba-bf94-25222caa8342	Colruyt Group Registered: not public (confidentialityLevel=Registered)	0
-a2e25ae9-2522-4689-8ebb-bf56276589f2	SolarWinds SaaS: not public (confidentialityLevel=Registered)	0
+a2e25ae9-2522-4689-8ebb-bf56276589f2	SolarWinds SaaS BBP: not public (confidentialityLevel=Registered)	0
 a4ade6d3-ca83-4bb1-8acc-1977945782eb	Too Good To Go - Marketplace: not public (confidentialityLevel=Registered)	0
 a5158346-5add-4916-bd31-d8a5fe1e805f	Universitätsspital Zürich VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 a5bd8905-a802-41c7-b31d-03d5f521f876	Salto Home Solutions: not public (confidentialityLevel=Registered)	0
@@ -170,7 +171,7 @@ bdcf0f7c-1562-4a8b-9a88-1c0fb477648a	UCB -External Perimeter: not public (confid
 bef9d2e2-0e7c-49f7-82e3-81fd8f133225	UZ Brussel: not public (confidentialityLevel=Registered)	0
 c12292a3-d997-406f-863b-42d223dcbae6	Proof.com VDP: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
 c45fe6df-1e31-4701-8e75-e9f01919ea20	NVIDIA Vulnerability Disclosure Program: automation ban: [Mistral-confirmed ban, no regex match]	0
-c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e	Venly: not open (status=Suspended)	0
+c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e	Venly: automation ban: [Mistral-confirmed ban, no regex match]	8
 c7272420-0cef-4366-87d2-278c06591799	House of HR Vulnerability Disclosure Program: automation ban: [Mistral-confirmed ban, no regex match]	0
 c72bd9b7-72aa-43eb-854f-60cddc0effd7	Allekabels: not public (confidentialityLevel=Application)	0
 cefc1013-9927-4e4a-b306-e5d57f06d34a	eHealth Hub VZN KUL: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	6
@@ -184,7 +185,7 @@ d5c4e966-a80a-44f5-91c9-2bb9487b8762	EURid: no explicit automation permission (s
 d74a9b6a-0356-46e7-8346-2b9de8acc90e	Redcare Pharmacy Sites: not public (confidentialityLevel=Registered)	0
 d89a3560-be5c-406c-8a73-e4c72b0ca4c4	Yahoo Bug Bounty: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	7
 dd9dba85-e047-42f3-b59e-9328c7d49672	DigitalOcean: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	14
-e0f19fd6-88c1-46f3-a42f-855a9ba0294c	Intertoys: not open (status=Suspended)	0
+e0f19fd6-88c1-46f3-a42f-855a9ba0294c	Intertoys: not public (confidentialityLevel=Application)	0
 e1dc7326-0466-4c06-bd52-3c6df82370be	Red Bull: automation ban: [Mistral-confirmed ban, no regex match]	0
 e2894532-0245-49a9-9883-493a23ae7e1e	Brazzers Bug Bounty Program: private/invite-gated program, no API access	0
 e2a235f3-6a95-4134-a165-aa48e9632f47	Anaconda Vulnerability Disclosure Program: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	0
@@ -199,6 +200,7 @@ ecc515cc-c0c1-4a72-966a-ba2baef4d35f	Orbia Responsible Disclosure: no explicit a
 ecf9c610-36eb-47df-8b25-bb496aff8015	Nexuzhealth Web PACS: no explicit automation permission (silent): [No automation ban found, but no explicit allow language found either - conditio	2
 ed04d1ef-1aa3-49dd-92f1-06f50f9756b9	TrueLayer: not open (status=Suspended)	0
 ee2612e7-e188-492f-9bb2-ba48651523de	Intergamma: automation ban: [Mistral-confirmed ban, no regex match]	20
+ee730db2-80a7-4e75-a2b2-c24c7309dca3	UpCloud Bug Bounty: not public (confidentialityLevel=Application)	0
 ef919950-9ced-48c3-b1f4-2379c43c8ec5	Wärtsilä Vulnerability Disclosure Program: automation ban: [Mistral-confirmed ban, no regex match]	0
 efa92aaa-d683-4cf9-8834-a03cf864cc80	Trouw: automation ban: [Mistral-confirmed ban, no regex match]	6
 efd8bd86-a986-4b4a-9eda-c9a6a1a6b540	CM.com: automation ban: [Mistral-confirmed ban, no regex match]	11

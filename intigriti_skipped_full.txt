@@ -1,5 +1,8 @@
-10eb5e95-08e2-4f4e-8d22-f8c600a7acff	Intel®: automation: review - [Mistral call failed on full-text check — queued for retry]	0
+4fdf596d-6335-4568-a501-13dbfeafe059	Posten Bring Responsible Disclosure: automation: review - [Mistral call failed on full-text check — queued for retry]	0
+7c46a970-eb8d-48b9-aa11-b52198f763c4	Intel® Vulnerability Disclosure Program : automation: review - [Mistral call failed on full-text check — queued for retry]	0
 82be1e9b-f9ab-45e7-82fd-9ba65be37645	Tempo-Team : automation: review - [Mistral call failed on full-text check — queued for retry]	5
+a80f638a-58a5-4f1c-a427-9d944cabd51a	ADAC Vulnerability Disclosure Program: automation: review - [Mistral call failed on full-text check — queued for retry]	0
+acb632b9-2605-47ec-9195-3ffb2f0fcae6	GULP: automation: review - [Mistral call failed on full-text check — queued for retry]	4
 b2049472-b637-49c3-b9cc-077c676f093c	Randstad: automation: review - [Mistral call failed on full-text check — queued for retry]	3
 baca9d50-2fd8-427f-bd56-e67f7f058573	BMC: automation: review - [Mistral call failed on full-text check — queued for retry]	1
 bbc2d49d-6b11-40af-9746-aefa64756928	Yacht: automation: review - [Mistral call failed on full-text check — queued for retry]	1
