@@ -2238,7 +2238,7 @@ _MISTRAL_CACHE = load_mistral_cache()
 _MISTRAL_QUOTA_EXHAUSTED_UNTIL = 0
 _MISTRAL_CALLS_SINCE_SAVE = 0
 _MISTRAL_LAST_CALL_TS = [0.0]
-MISTRAL_MIN_INTERVAL_S = 20  # 3 req/min, real margin under 4/min cap
+MISTRAL_MIN_INTERVAL_S = 80  # ~0.75 req/min margin under 4/min cap
 
 def _mistral_pace():
     elapsed = time.time() - _MISTRAL_LAST_CALL_TS[0]

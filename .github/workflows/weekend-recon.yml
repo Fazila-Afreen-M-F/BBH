@@ -131,7 +131,7 @@ jobs:
     needs: prepare
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 20
       matrix:
         batch: ${{ fromJson(needs.prepare.outputs.batches) }}
     steps:
