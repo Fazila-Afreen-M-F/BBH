@@ -4167,6 +4167,10 @@
     "rate": null,
     "reason": "No rate limit or scanning throttle is mentioned in the text."
   },
+  "3c7cd0eda88679966091654c0f649e6eb9fe04fa2e6bd50f7d685b583c9561e5": {
+    "is_allowed": false,
+    "reason": "The snippet explicitly prohibits the use of automated tools/scanners."
+  },
   "3c8300f1a402b584aa489cb28dc903e91574b079de1b332c58679abe3c8da570": {
     "is_ban": false,
     "reason": "The snippet does not restrict the act of using automated scanners/tools; it only describes Glean's features and scope."
